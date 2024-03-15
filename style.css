@@ -25,7 +25,7 @@
     width: 1000px;
     height: 140px;
     border-radius: 50% 50% 0% 0%;
-    background: lightpink;
+    background: pink;
     border: 3px solid black;
     margin:auto;
     margin-top: 50px;
@@ -70,27 +70,32 @@
     background: black;
     border-radius:50% ;
     display: flex;
-
 }
-.reyeball:hover{
+.main:hover .reyeball{
     margin-top: 15px;
     margin-left: 30px;
-    transition: 1.0s;
+    transition: 0.5s;
 }
-.leyeball:hover{
+.main:hover .leyeball{
      margin-top: 15px;
      margin-left: 30px;
-     transition:1.0s;
+     transition:0.5s;
 }
 .nose:hover{
     height: 40px;
     width: 80px;
 }
-.lball:hover{
+.main:hover .lball{
     height: 20px;
     width: 20px;
+    transition: 0.5s;
 }
-.rball:hover{
+.main:hover .rball{
     height: 20px;
     width: 20px;
+    transition: 0.5s;
+}
+.main:hover .nose{
+    height: 40px;
+    width: 80px;
 }
